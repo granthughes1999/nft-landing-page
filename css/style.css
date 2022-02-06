@@ -181,3 +181,14 @@ section {
   }
 }
  
+/*images under welcome*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
