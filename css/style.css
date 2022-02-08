@@ -356,6 +356,11 @@ header {
   margin-top: 20px;
   display: inline;
 }
+
+.gallery_team p {
+  display:center;
+}
+
 .gallery-team-item {
   margin: 0.25rem;
   width:17rem;
@@ -363,7 +368,7 @@ header {
 }
 
 .gallery-team-item .thumbnail {
-  width: 240px;
+  width: 12rem;
   border: 2px solid GhostWhite;
   border-radius: 4px;
 }
