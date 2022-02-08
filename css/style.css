@@ -427,6 +427,19 @@ header {
   border-radius: 25px;
 }
 
+.midground p{
+  color: rgb(7, 6, 3);
+  font-size: 1rem;
+  left: 100px;
+  font-style: sans-serif;
+}
+.midground h2{
+  color: rgb(7, 6, 3);
+  font-size: 3rem;
+  left: 100px;
+  font-style: sans-serif;
+}
+
 .foreground{
   height: 80%;
 }
