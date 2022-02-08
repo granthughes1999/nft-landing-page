@@ -56,6 +56,10 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
 }
 
 header .container {
@@ -195,6 +199,12 @@ section {
   }
   .countdown p {
     font-size: 1rem;
+  }
+  .container{
+
+  }
+  .logo{
+
   }
 }
  
