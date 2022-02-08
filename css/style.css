@@ -322,11 +322,13 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  display: inline-block;
+  display: inline;
 }
 
 .gallery-item {
-  margin: 20px;
+  margin: 0.125rem;
+  width:15rem;
+  display:inline-block;
 }
 
 .gallery-item .thumbnail {
