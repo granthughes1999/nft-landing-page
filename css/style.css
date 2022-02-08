@@ -79,7 +79,7 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: center;
   z-index:1;
   text-decoration: none !important;
