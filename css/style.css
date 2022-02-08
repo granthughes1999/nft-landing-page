@@ -34,7 +34,9 @@ body {
   font-family: var(--font-primary);
  
 }
-
+.jumbotron .container{
+  z-index:1;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -42,6 +44,7 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   height: 12vh;
+  z-index:1;
 }
 
 .container_countdown {
@@ -50,6 +53,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
+  z-index:1;
 }
 
 /* HEADER */
@@ -66,6 +70,7 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index:1;
   
 }
 
@@ -73,6 +78,7 @@ header .container {
   display: flex;
   gap: 2rem;
   align-items: center;
+  z-index:1;
 }
 
 /* BUTTONS */
@@ -136,6 +142,7 @@ section {
   height: auto;
 }
 .countdown .clock-item .count-number {
+  z-index: 1;
   background: var(--accent-color);
   color: var(--font-color);
   font-size: 2rem;
@@ -282,14 +289,11 @@ footer {
 }
 
 header {
-  background-color: #333333;
+  /* background-color: #333333; */
   position: relative;
   width: 100%;
   height:25%;
-}
-size {
-  width: 32px;
-  height: 32px;
+  z-index:0;
 }
 
 .row .image-container img{
@@ -326,4 +330,15 @@ size {
 
 .road_map h3{
   color:#be7efe;
+}
+
+.jumbotron {
+  height: 750px;
+  background-image: url("https://ipfs.io/ipfs/bafybeiefqcno2wjs23tmuezdpdwljdv73pzirozsfj7f27s2s3vrudg5ea");
+  z-index: 0;
+  top: 100px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
