@@ -282,10 +282,19 @@ section {
 
 .inline-block {
   display: inline-block;
-  border: none;
+  /* border: none;
   width: 2rem;
   height: 1rem;
-  border: 0rem;
+  border: 0rem; */
+  box-shadow: var(--header-shadow);
+  max-width: 100%;
+  margin: 0rem auto;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.inline-block-text {
+  display: center;
 }
 
 .middle{
