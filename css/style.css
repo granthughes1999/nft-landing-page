@@ -63,7 +63,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
-  max-width: 940px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
@@ -82,6 +82,7 @@ header .container {
   gap: 1rem;
   align-items: center;
   z-index:1;
+  text-decoration: none !important;
 
 }
 
