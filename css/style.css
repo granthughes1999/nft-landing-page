@@ -265,6 +265,7 @@ section {
   width: 250px;
   left: 1000px;
   border:0;
+  gap: 0.5rem;
   float: left;
 }
 
