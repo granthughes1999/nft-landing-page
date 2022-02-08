@@ -63,7 +63,7 @@ body {
 
 header {
   box-shadow: var(--header-shadow);
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
