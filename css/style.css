@@ -79,7 +79,7 @@ header .container {
 
 .menu {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   z-index:1;
 
@@ -202,7 +202,7 @@ section {
 
 @media screen and (max-width: 768px) {
   .menu {
-    gap: 1rem;
+    gap: 0rem;
   }
   .wallet-btn {
     margin-left: 0;
@@ -271,6 +271,9 @@ section {
 .inline-block {
   display: inline-block;
   border: none;
+  width: 2rem;
+  height: 1rem;
+  border: 0rem;
 }
 
 .middle{
@@ -329,6 +332,8 @@ header {
 }
 .center_logo{
   display:center;
+  width: 1rem;
+  height: 1rem;
 }
 
 .text_color{
