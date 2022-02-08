@@ -42,9 +42,12 @@ body {
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 0.1rem 0.1rem;
   height: 12vh;
   z-index:1;
+ font-size: 0.75rem;
+ color: #fff;
+ 
 }
 
 .container_countdown {
@@ -79,6 +82,11 @@ header .container {
   gap: 2rem;
   align-items: center;
   z-index:1;
+
+}
+
+.menu p{
+  color: #fff;
 }
 
 /* BUTTONS */
@@ -256,6 +264,7 @@ section {
   height: 250px;
   width: 250px;
   left: 1000px;
+  border:0;
   float: left;
 }
 
@@ -333,7 +342,8 @@ header {
 }
 
 .jumbotron {
-  height: 750px;
+  height: 780px;
+  width: 100%;
   background-image: url("https://ipfs.io/ipfs/bafybeiefqcno2wjs23tmuezdpdwljdv73pzirozsfj7f27s2s3vrudg5ea");
   z-index: 0;
   top: 100px;
@@ -341,4 +351,10 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.menu .tags {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
 }
