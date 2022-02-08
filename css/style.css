@@ -398,7 +398,7 @@ header {
 }
 
 .jumbotron {
-  height: 1000px;
+  height: 75rem;
   width: 100%;
   background-image: url("https://ipfs.io/ipfs/bafybeiefqcno2wjs23tmuezdpdwljdv73pzirozsfj7f27s2s3vrudg5ea");
   z-index: 0;
