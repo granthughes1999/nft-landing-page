@@ -325,6 +325,7 @@ header {
   width: 50%;
 }
 
+/* Welcome Gallery */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -333,13 +334,35 @@ header {
   display: inline;
 }
 
+
 .gallery-item {
-  margin: 0.125rem;
-  width:15rem;
+  margin: 0.1rem;
+  width:19rem;
   display:inline-block;
 }
 
 .gallery-item .thumbnail {
+  width: 19rem;
+  border: 2px solid GhostWhite;
+  border-radius: 4px;
+}
+
+/* Team Gallery */
+
+.gallery_team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  display: inline;
+}
+.gallery-team-item {
+  margin: 0.25rem;
+  width:17rem;
+  display:inline-block;
+}
+
+.gallery-team-item .thumbnail {
   width: 240px;
   border: 2px solid GhostWhite;
   border-radius: 4px;
