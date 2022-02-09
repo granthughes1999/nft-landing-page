@@ -80,7 +80,7 @@ header .container {
 .menu {
   display: flex;
   gap: 1.5rem;
-  width: 2rem;
+  width: 1.25rem;
   align-items: center;
   z-index:1;
   text-decoration: none !important;
@@ -212,8 +212,8 @@ section {
 
 @media screen and (max-width: 800px) {
   .menu {
-    gap: 1.5rem;
-    width: 2rem;
+    gap: 1.25rem;
+    width: 1.25rem;
     font-size: 1rem;
   }
   .wallet-btn {
