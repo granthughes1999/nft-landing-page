@@ -91,7 +91,7 @@ header .container {
   color: #fff;
   gap: 1.5rem;
   width: 2.5rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 /* BUTTONS */
@@ -425,6 +425,7 @@ header {
   border-radius: 25px;
 }
 
+
 .midground p{
   color: rgb(7, 6, 3);
   font-size: 1rem;
@@ -440,6 +441,17 @@ header {
 
 .foreground{
   height: 80%;
+}
+
+.foreground_roadmap{
+  height: 80%;
+}
+
+.midground_roadmap {
+  background-color: rgb(190, 156, 10);
+  height: 100%;
+  padding: 1rem 2rem;
+  border-radius: 25px;
 }
 
 .bottom_logo{
