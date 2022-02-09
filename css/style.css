@@ -392,7 +392,7 @@ header {
 }
 
 .road_map h3{
-  color:#be7efe;
+  color:#000000;
 }
 
 .jumbotron {
@@ -442,14 +442,43 @@ header {
 .foreground{
   height: 80%;
 }
-
 .foreground_roadmap{
   height: 80%;
 }
-
-.midground_roadmap {
-  background-color: rgb(190, 156, 10);
+.foreground_roadmap_1{
   height: 100%;
+}
+.foreground_roadmap_2{
+  height: 80%;
+}
+
+.foreground_roadmap_3{
+  height: 80%;
+}
+.midground_roadmap h3 {
+  background-color: rgb(228, 55, 199);
+  height: 3%;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
+
+.midground_roadmap_1 {
+  background-color: rgb(228, 55, 199);
+  height: 3%;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
+/* rgb(190, 156, 10) */
+.midground_roadmap_2 {
+  background-color: rgb(228, 55, 199);
+  height: 3%;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
+
+.midground_roadmap_3 {
+  background-color: rgb(228, 55, 199);
+  height: 3%;
   padding: 1rem 2rem;
   border-radius: 25px;
 }
