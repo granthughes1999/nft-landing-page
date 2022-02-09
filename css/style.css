@@ -91,7 +91,7 @@ header .container {
   color: #fff;
   gap: 1.5rem;
   width: 2.5rem;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 /* BUTTONS */
@@ -445,41 +445,10 @@ header {
 .foreground_roadmap{
   height: 80%;
 }
-.foreground_roadmap_1{
-  height: 100%;
-}
-.foreground_roadmap_2{
-  height: 80%;
-}
-
-.foreground_roadmap_3{
-  height: 80%;
-}
 .midground_roadmap h3 {
-  background-color: rgb(228, 55, 199);
-  height: 3%;
-  padding: 1rem 2rem;
-  border-radius: 25px;
-}
-
-.midground_roadmap_1 {
-  background-color: rgb(228, 55, 199);
-  height: 3%;
-  padding: 1rem 2rem;
-  border-radius: 25px;
-}
-/* rgb(190, 156, 10) */
-.midground_roadmap_2 {
-  background-color: rgb(228, 55, 199);
-  height: 3%;
-  padding: 1rem 2rem;
-  border-radius: 25px;
-}
-
-.midground_roadmap_3 {
-  background-color: rgb(228, 55, 199);
-  height: 3%;
-  padding: 1rem 2rem;
+  background-color: rgba(214, 67, 189, 0.678);
+  height: 1%;
+  padding: 0.5rem 1.5rem;
   border-radius: 25px;
 }
 
