@@ -350,12 +350,12 @@ header {
 
 .gallery-item .thumbnail {
   width: 14rem;
-  border: 2px solid GhostWhite;
+  /* border: 2px solid GhostWhite; */
   border-radius: 4px;
   /* position: right; */
   display: inline-block;
 }
-
+/* GhostWhite */
 .image-row{
   padding:0rem;
   margin: 0rem;
