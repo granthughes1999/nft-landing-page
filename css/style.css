@@ -41,9 +41,6 @@ body {
   z-index:0;
   border-color: transparent;
   
- 
- 
- 
 }
 .container {
   display: flex;
@@ -538,8 +535,6 @@ particles-js{
   margin: 0.1rem;
   /* width:0.2rem; */
   position: absolute;
-  height: 85rem;
-  width: 90rem;
   top:12%;
   left:0px;
   position: center;
