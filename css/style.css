@@ -523,38 +523,34 @@ particles-js{
 }
 
 .background_image{
-  height: 100rem;
-  width: 90rem;
-  z-index: 0;
-  top:10%;
+  /* height: 90rem;
+  width: 65rem; */
+  z-index: -1;
+ 
 
-  
 }
 
 .background-item{
-  margin: 0.1rem;
   position: absolute;
-  top:0%;
-  left:0px;
-  position: center;
-  z-index: 1;
-  position: absolute;
-  position: center;
-  display: flex;
-  flex-direction: column;
-  max-width: 1030px;
-  margin: 0 auto;
+  /* position: center; */
+  z-index: -1;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* max-width: 1060px; */
   
  
 }
 
 
+
+
+/* WOLFF */
+
 .background_image-wolf{
   height: 38rem;
   width: 38rem;
   z-index: 0;
-  /* top:30%; */
-  position: center;
+
   
 }
 
