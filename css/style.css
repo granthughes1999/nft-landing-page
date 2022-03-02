@@ -7,11 +7,12 @@ h1 {
   font-size: 36px;
 }
 
+
 :root {
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #000000;
+  --bg-color: #212428;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
