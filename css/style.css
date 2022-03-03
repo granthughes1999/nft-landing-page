@@ -341,6 +341,7 @@ section {
   padding: 0 10px;
   text-align: center;
   color: #000000;
+  z-index: 2;
 
 }
 
@@ -354,6 +355,7 @@ footer {
   background-color: rgb(190, 156, 10);
   color: #fff;
   padding: 40px 0;
+  z-index: 1;
 }
 /* #333 */
 
