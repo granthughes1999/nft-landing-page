@@ -535,7 +535,7 @@ particles-js{
 }
 
 .background-item{
-  height: 200%;
+  height: 150%;
   width:100%;
   position: absolute;
   z-index: -1;
