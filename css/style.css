@@ -524,7 +524,7 @@ header {
 }
 
 .background_image{
-  height: 100%;
+  height:100%;
   width:100%;
   z-index: -1;
   position: relative;
@@ -532,11 +532,12 @@ header {
 }
 
 .background-item{
+  height:200%;
+  width:100%;
+ 
   position: absolute;
   z-index: -1;
   position: center;
-  height:150%;
-  width:100%;
  
 }
 
@@ -556,7 +557,6 @@ header {
 .background-item-wolf{
 
   position: relative;
-
   left:0px;
   position: center;
   z-index: 1;
