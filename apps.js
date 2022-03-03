@@ -15,7 +15,7 @@ particlesJS('particles-js',
 
   {
     "particles": {
-      z- index: 1;
+      z- index: 3;
     "number": {
       "value": 80,
       "density": {

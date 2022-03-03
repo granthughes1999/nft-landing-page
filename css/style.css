@@ -260,10 +260,11 @@ section {
     font-size: 1rem;
   }
   .background-item{
-    position: absolute;
+    position: relative;
     z-index: -1;
+  
   } .background_image{
-    position: absolute;
+    position: relative;
     z-index: -1;
   }
   
@@ -503,11 +504,7 @@ header {
 }
 
 /* Praticle.js */
-particles-js{
-  height: 10%;
-  background: #f00;
-  z-index:-1;
-}
+
 
 .position-relative {
   position: relative !important;
@@ -521,16 +518,13 @@ particles-js{
 
 /* PARTICLES.JS */
 
-.particles-js{
-  z-index: -1;
-}
 
 .mint h1{
   color: #000000;
 }
 
 .background_image{
-  height: 150%;
+  height: 100%;
   width:100%;
   z-index: -1;
   position: relative;
@@ -541,6 +535,8 @@ particles-js{
   position: absolute;
   z-index: -1;
   position: center;
+  height: 250%;
+  width:100%;
  
 }
 
@@ -568,13 +564,3 @@ particles-js{
 }
 
 
-#particles-js {
-  background: black;
-  height: 100vh;
-  position: relative;
-  z-index: 1;
-}
-
-.overflow-hidden{
-  overflow: hidden !important;
-}
