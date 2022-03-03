@@ -259,6 +259,20 @@ section {
   .container{
     font-size: 1rem;
   }
+  .background-item{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: -1;
+
+  }
+  .background-image{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: -1;
+  }
+
   
 }
  
@@ -523,21 +537,13 @@ particles-js{
 }
 
 .background_image{
-  /* height: 90rem;
-  width: 65rem; */
   z-index: -1;
- 
-
 }
 
 .background-item{
   position: absolute;
-  /* position: center; */
   z-index: -1;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* max-width: 1060px; */
-  
+ 
  
 }
 
