@@ -262,6 +262,9 @@ section {
   .background-item{
     position: absolute;
     z-index: -1;
+  } .background_image{
+    position: absolute;
+    z-index: -1;
   }
   
 }
@@ -530,13 +533,11 @@ particles-js{
   height: 100%;
   width:100%;
   z-index: -1;
-  position: absolute;
+  position: relative;
   position: center;
 }
 
 .background-item{
-  height: 150%;
-  width:100%;
   position: absolute;
   z-index: -1;
   position: center;
