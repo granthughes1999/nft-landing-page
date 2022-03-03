@@ -13,6 +13,7 @@ h1 {
 
 :root {
   --font-primary: 'Poppins', sans-serif;
+  /* --font-primary: Montserrat, sans-serif; */
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #212428;
@@ -29,12 +30,16 @@ h1 {
 }
 
 body {
+  font-family: Montserrat, sans-serif;
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
   height: 50vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
  
 }
 .jumbotron .container{
@@ -267,6 +272,9 @@ section {
     position: relative;
     z-index: -1;
   }
+  .colletion_info{
+    display: inline-block;
+  }
   
 }
  
@@ -400,7 +408,6 @@ header {
   margin: 0rem;
   display: inline-block;
 
-
 }
 
 /* Team Gallery */
@@ -466,6 +473,12 @@ header {
   height: 100%;
   padding: 1rem 2rem;
   border-radius: 25px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1030px;
+  box-shadow: 10px 5px 5px rgb(26, 24, 24);
 }
 
 
@@ -571,3 +584,47 @@ header {
   z-index: 0;
 }
 
+.colletion_info{
+  display: inline-block;
+  text-align: center;
+ 
+  padding:0rem;
+  margin: 0rem;
+
+  /* flex-direction: column; */
+  max-width: 1030px;
+  /* display: flex; */
+  /* flex-direction: column; */
+ 
+  z-index:1;
+  /* text-align: center; */
+}
+
+/* Collection Info*/
+.collection-row{
+  padding:2rem;
+  margin: 1rem;
+  display: inline-block;
+  word-spacing: 10em;
+  letter-spacing: 0px;
+  font-size: 21px;
+ 
+
+}
+
+.collection-info {
+  margin: 10rem;
+  width:14rem;
+  display:inline-block;
+  padding: 25px;
+  
+}
+
+.collection-info .item {
+  width: 14rem;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 25px;
+}
+
+/* END Collection Info*/
