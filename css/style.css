@@ -236,7 +236,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .menu {
     gap: 1.25rem;
     width: 1.25rem;
@@ -260,19 +260,9 @@ section {
     font-size: 1rem;
   }
   .background-item{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: -1;
-
-  }
-  .background-image{
-    width: 1.25rem;
-    height: 1.25rem;
     position: absolute;
     z-index: -1;
   }
-
   
 }
  
@@ -537,13 +527,19 @@ particles-js{
 }
 
 .background_image{
+  height: 100%;
+  width:100%;
   z-index: -1;
+  position: absolute;
+  position: center;
 }
 
 .background-item{
+  height: 200%;
+  width:100%;
   position: absolute;
   z-index: -1;
- 
+  position: center;
  
 }
 
