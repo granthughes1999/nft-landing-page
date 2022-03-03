@@ -435,20 +435,20 @@ header {
   color:#000000;
 }
 
-.jumbotron {
+/* .jumbotron {
   height: 100%;
   width: 100%;
-  /* background-image: src("website_photos/website_banner.jpg"); */
+  background-image: src("website_photos/website_banner.jpg");
   background-image: url("https://gateway.pinata.cloud/ipfs/QmXJxVV6ZQRvuE3PH92b1njEgWrmDADhxL6HJi4c5pVG6H");
   z-index: 2;
-  /* top: 100px; */
+  top: 100px;
   top:30%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   border-color: transparent;
-}
+} */
 
 .menu .tags {
   display: inline-block;
@@ -516,7 +516,7 @@ header {
   
 }
 
-/* PARTICLES.JS */
+
 
 
 .mint h1{
@@ -563,4 +563,11 @@ header {
  
 }
 
+#particles-js{
+  height: 100%;
+  width: 100%;
+  background:#26262600 ;
+  position: fixed;
+  z-index: 0;
+}
 
