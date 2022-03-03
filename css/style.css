@@ -62,7 +62,7 @@ body {
 .container_countdown {
   display: flex;
   flex-direction: column;
-  max-width: 1030px;
+  max-width: 1000px;
   margin: 0 auto;
   /* padding: 1rem 2rem; */
   z-index:1;
