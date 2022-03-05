@@ -532,6 +532,7 @@ header {
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
+  box-shadow: var(--header-shadow);
 
 }
 
@@ -750,6 +751,40 @@ header {
   max-width: 1000px;
   box-shadow: var(--header-shadow);
 
+}
+
+
+.background_specs {
+  opacity: 1;
+  background-color: #ffffffa4;
+  height: 125%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+.background_specs h1{
+  color:#000000;
+
+}
+
+
+.background_specs-text {
+  opacity: 0.5;
+  background-color: #ffffffa4;
+  height: 125%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+.background_specs-text p {
+  color: #000;
+  font-size: larger;
 }
 
 
