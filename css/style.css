@@ -404,7 +404,7 @@ header {
 }
 
 .gallery-item .thumbnail {
-  width: 25rem;
+  width: 20rem;
   /* display: center; */
   border-radius: 4px;
   /* display: inline-block; */
