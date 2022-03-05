@@ -565,7 +565,7 @@ header {
 }
 
 .background_image{
-  height:125%;
+  height:175%;
   width:100%;
   z-index: -1;
   position: fixed;
@@ -574,7 +574,7 @@ header {
 }
 
 .background-item{
-  height:125%;
+  height:175%;
   width:100%;
   position: fixed;
   position: absolute;
@@ -677,12 +677,31 @@ header {
 
 .background_image-logo{
   height: 25rem;
-  width: 43rem;
+  width: 49rem;
   z-index: 0;
   padding: 0px;
   margin:0px;
 
   
 }
+
+
+/* LOAD IN IMAGES ON SCROLL */
+
+.star {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
 
 
