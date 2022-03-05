@@ -787,4 +787,30 @@ header {
   font-size: larger;
 }
 
+/* gif info */
+
+.gallery_gif {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin-top: 20px;
+  display: center;
+  border: 0px solid GhostWhite;
+}
+
+
+/* .gallery-team-gif {
+  margin: 0.25rem;
+  width:17rem;
+  /* position: center; */
+  /* display:inline-block; */
+} */
+
+.gallery_gif .thumbnail-gif {
+  width: 25rem;
+  border: 2px solid GhostWhite;
+  border-radius: 4px;
+
+}
+
 
