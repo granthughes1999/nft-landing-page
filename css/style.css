@@ -565,7 +565,7 @@ header {
 }
 
 .background_image{
-  height:135rem;
+  height:120rem;
   width:100%;
   z-index: -1;
   position: fixed;
@@ -574,7 +574,7 @@ header {
 }
 
 .background-item{
-  height:135rem;
+  height:120rem;
   width:100%;
   position: fixed;
   position: absolute;
