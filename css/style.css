@@ -381,36 +381,39 @@ header {
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* justify-content: center; */
-  margin-top: 20px;
+  margin-top: 10px;
   /* display: inline; */
   
 }
 
 
 .gallery-item {
-  margin: 0.1rem;
+  margin: 3rem;
   width:14rem;
-  display:inline-block;
+  /* display:inline-block; */
   
 }
 
 .gallery-item p{
   position: left;
   display: inline-block;
+  
 }
 
 .gallery-item .thumbnail {
-  width: 14rem;
+  width: 20rem;
   /* border: 2px solid GhostWhite; */
-  border-radius: 4px;
+  border-radius: 8px;
   /* position: right; */
   display: inline-block;
+ 
 }
 /* GhostWhite */
 .image-row{
   padding:0rem;
   margin: 0rem;
   display: inline-block;
+  display:relative;
 
 }
 
