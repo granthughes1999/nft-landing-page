@@ -390,7 +390,7 @@ header {
 
 .gallery-item {
   margin: 3rem;
-  width:14rem;
+  /* width:14rem; */
   /* display: center; */
   /* display:inline-block; */
   
@@ -404,12 +404,9 @@ header {
 }
 
 .gallery-item .thumbnail {
-  width: 20rem;
-  right:50%;
+  width: 25rem;
   /* display: center; */
-  /* border: 2px solid GhostWhite; */
   border-radius: 4px;
-  /* position: right; */
   /* display: inline-block; */
  
 }
