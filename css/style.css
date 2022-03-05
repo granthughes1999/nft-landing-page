@@ -12,8 +12,8 @@ h1 {
 
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  /* --font-primary: Montserrat, sans-serif; */
+  /* --font-primary: 'Poppins', sans-serif; */
+  --font-primary: Montserrat, sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #212428;
@@ -30,6 +30,7 @@ h1 {
 }
 
 body {
+ 
   font-family: Montserrat, sans-serif;
   background-color: var(--bg-color);
   display: flex;
@@ -71,6 +72,7 @@ body {
   top: 5%;
   width: 100%; 
   bottom: 30%;
+  
  
 
 }
