@@ -20,6 +20,7 @@ h1 {
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
+  --accent-color-discord: #ffffff;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -157,10 +158,21 @@ header .container {
   border-color: transparent;
 }
 
-.hero-btn {
+.hero-btn-discord {
   border-radius: 4px;
   font-size: 1.2rem;
-  padding: 2.5rem 2rem;
+  padding: 1.5rem 2.5rem;
+  background-color: #473bf0;
+  box-shadow: 4px 4px 0 0 var(--accent-color-discord);
+  color: var(--accent-color-discord);
+  
+  
+}
+
+.hero-btn-mint {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
   background-color: rgb(255, 255, 255);
   
   
@@ -521,9 +533,6 @@ header {
   border-radius: 25px;
   max-width: 1000px;
 
-
- 
-
 }
 
 .foreground_roadmap{
@@ -703,5 +712,32 @@ header {
   100%{opacity:1}
 }
 
+.background_mint {
+  opacity: 0.8;
+  background-color: #ffffffa4;
+  height: 100%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+
+.background_mint p{
+  color:#000000;
+
+}
+
+.hero-btn-mint-2 {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
+  background-color: #473bf0;
+  box-shadow: 4px 4px 0 0 var(--accent-color-discord);
+  color: var(--accent-color-discord);
+  
+  
+}
 
 
