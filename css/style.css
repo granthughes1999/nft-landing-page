@@ -659,11 +659,12 @@ header {
 /* LOGO */
 
 .background-item-logo{
-
   position: relative;
   left:0px;
   position: center;
   z-index: 1;
+  padding: 0px;
+  margin:0px;
  
 }
 
@@ -671,6 +672,8 @@ header {
   height: 25rem;
   width: 35rem;
   z-index: 0;
+  padding: 0px;
+  margin:0px;
 
   
 }
