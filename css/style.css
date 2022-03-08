@@ -176,6 +176,18 @@ header .container-main {
   
 }
 
+.hero-btn-opensea {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 1.5rem 2.5rem;
+  background-color: #473bf0;
+  box-shadow: 4px 4px 0 0 var(--accent-color-discord);
+  color: var(--accent-color-discord);
+  z-index: 3;
+  
+  
+}
+
 .hero-btn-mint {
   border-radius: 4px;
   font-size: 1.2rem;
@@ -786,16 +798,16 @@ header {
 
 .background_nft {
   opacity: 1;
-  background-color: #ffffffa4;
+  background-color: #ffffff;
   height: 125%;
   width:100%;
-  padding: 0.5rem 1.5rem;
+  padding: 0.75rem 1.0rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
 
 }
-
+/* #ffffffa4; */
 
 .background_specs {
   opacity: 1;
@@ -808,6 +820,19 @@ header {
   box-shadow: var(--header-shadow);
 
 }
+
+.background_specs_text {
+  opacity: 1;
+  background-color: #ffffff;
+  height: 100%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+
 .background_specs h1{
   color:#000000;
 
