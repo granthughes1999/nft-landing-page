@@ -49,7 +49,7 @@ body {
   border-color: transparent;
   
 }
-.container {
+.container-main {
   display: flex;
   flex-direction: column;
   max-width: 900px;
@@ -96,7 +96,7 @@ header {
  
 }
 
-header .container {
+header .container-main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -277,7 +277,7 @@ section {
   .header{
     font-size: 1rem;
   }
-  .container{
+  .container-main{
     font-size: 1rem;
   }
   .background-item{
@@ -864,12 +864,12 @@ header {
 
 /* Place the container to the left */
 .left {
-  left: -25%;
+  left: 0%;
 }
 
 /* Place the container to the right */
 .right {
-  left: 25%;
+  left: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
