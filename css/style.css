@@ -622,7 +622,7 @@ header {
   position: absolute;
   /* position: center; */
   z-index: -1;
-  max-width: 760px;
+  max-width: 765px;
 
  
 }
@@ -632,7 +632,7 @@ header {
   position: fixed;
   position: absolute;
   /* position: center; */
-  max-width: 760px;
+  max-width: 765px;
 }
 
 
