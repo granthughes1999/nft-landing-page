@@ -83,9 +83,9 @@ body {
   color:#000;
 }
 
-.container_countdown h2{
+/* .container_countdown h2{
   color:#000;
-}
+} */
 
 
 /* HEADER */
@@ -243,6 +243,9 @@ section {
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
+}
+.countdown h2 {
+  color:#000;
 }
 
 .countdown p {
@@ -619,7 +622,7 @@ header {
   position: absolute;
   /* position: center; */
   z-index: -1;
-  max-width: 700px;
+  max-width: 720px;
 
  
 }
@@ -629,7 +632,7 @@ header {
   position: fixed;
   position: absolute;
   /* position: center; */
-  max-width: 700px;
+  max-width: 720px;
 }
 
 
