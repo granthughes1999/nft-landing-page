@@ -613,13 +613,13 @@ header {
   position: fixed;
   position: absolute;
   z-index: -1;
-   max-width: 790px;
+  max-width: 790px;
 
  
 }
 
 .background_moon{
-  left:20.5%;
+  /* left:20.5%; */
   /* height:100%;
   width:100%; */
   z-index: -1;
