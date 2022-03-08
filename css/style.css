@@ -607,7 +607,7 @@ header {
 
 .background-moon{
   top:13.5rem;
-  left:15%;
+  /* left:15%; */
   height:50%;
   width:50%;
   position: fixed;
