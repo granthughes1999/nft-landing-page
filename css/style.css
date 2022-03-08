@@ -812,9 +812,9 @@ header {
 .background_specs {
   opacity: 1;
   background-color: #ffffffa4;
-  height: 160%;
+  height: 100%;
   width:100%;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.0rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
@@ -824,7 +824,7 @@ header {
 .background_specs_text {
   opacity: 1;
   background-color: #ffffff;
-  height: 28%;
+  height: 30%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
@@ -837,7 +837,7 @@ header {
 .background_specs_mint {
   opacity: 1;
   background-color: #ffffff;
-  height: 40%;
+  height: 44%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
@@ -859,7 +859,7 @@ header {
 .background_specs_data {
   opacity: 1;
   background-color: #ffffff;
-  height: 16%;
+  height: 17%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
