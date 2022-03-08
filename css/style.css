@@ -812,7 +812,7 @@ header {
 .background_specs {
   opacity: 1;
   background-color: #ffffffa4;
-  height: 125%;
+  height: 160%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
@@ -824,12 +824,60 @@ header {
 .background_specs_text {
   opacity: 1;
   background-color: #ffffff;
-  height: 100%;
+  height: 28%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
+
+}
+
+
+.background_specs_mint {
+  opacity: 1;
+  background-color: #ffffff;
+  height: 40%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+
+.background_specs_mint p {
+  color:#000000;
+
+}
+
+.background_specs_mint h2{
+  color:#000000;
+
+}
+
+.background_specs_data {
+  opacity: 1;
+  background-color: #ffffff;
+  height: 16%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+
+.background_specs_data h2 {
+  color:#000000;
+
+}
+
+
+
+
+.background_specs_text p {
+  color:#000000;
 
 }
 
@@ -842,7 +890,7 @@ header {
 .background_specs-text {
   opacity: 0.5;
   background-color: #ffffffa4;
-  height: 125%;
+  height: 75%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
@@ -866,13 +914,6 @@ header {
   border: 0px solid GhostWhite;
 }
 
-
-/* .gallery-team-gif {
-  margin: 0.25rem;
-  width:17rem;
-  /* position: center; */
-  /* display:inline-block; */
-} */
 
 .gallery_gif .thumbnail-gif {
   width: 25rem;
