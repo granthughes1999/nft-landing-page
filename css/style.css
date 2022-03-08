@@ -613,7 +613,7 @@ header {
   position: fixed;
   position: absolute;
   z-index: -1;
-   max-width: 1000px;
+   max-width: 960px;
 
  
 }
@@ -626,7 +626,7 @@ header {
   position: fixed;
   position: absolute;
   position: center;
-  max-width: 1000px;
+  max-width: 960px;
 }
 
 
