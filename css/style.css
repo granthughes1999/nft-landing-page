@@ -607,24 +607,30 @@ header {
 
 .background-moon{
   top:13.5rem;
-  left:23.5rem;
-  height:89%;
-  width:72%;
+  left:32.5rem;
+  height:100%;
+  width:100%;
+  /* height:89%;
+  width:72%; */
   position: fixed;
   position: absolute;
   z-index: -1;
   position: center;
+  max-width: 1030px;
  
 }
 
 .background_moon{
-  right:20rem;
-  height:89%;
-  width:72%;
+  right:22.5rem;
+  /* height:100%;
+  width:100%; */
+  /* height:89%;
+  width:72%; */
   z-index: -1;
   position: fixed;
   position: absolute;
   position: center;
+  max-width: 1030px;
 }
 
 
