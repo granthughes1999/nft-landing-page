@@ -619,7 +619,7 @@ header {
 }
 
 .background_moon{
-  /* right:22.5rem; */
+  left:2%;
   /* height:100%;
   width:100%; */
   z-index: -1;
