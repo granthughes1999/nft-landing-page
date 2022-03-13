@@ -265,6 +265,7 @@ section {
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
+  color:#000;
 }
 
 /* OWNER STYLES */
