@@ -189,8 +189,8 @@ header .container-main {
 }
 
 .hero-btn-mint {
-  border-radius: 4px;
-  font-size: 1.2rem;
+  border-radius: 5px;
+  font-size: 3rem;
   padding: 1.5rem 2rem;
   background-color: rgb(255, 255, 255);
   
@@ -787,7 +787,7 @@ header {
 
 .hero-btn-mint-2 {
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 1.5rem 2rem;
   background-color: #473bf0;
   box-shadow: 4px 4px 0 0 var(--accent-color-discord);
