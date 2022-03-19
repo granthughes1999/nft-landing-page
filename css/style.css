@@ -771,7 +771,7 @@ header {
 
 .background_mint {
   opacity: 0.8;
-  background-color: #ffffffa4;
+  background-color: rgb(190, 156, 10);
   height: 100%;
   width:100%;
   padding: 0.5rem 1.5rem;
@@ -780,6 +780,7 @@ header {
   box-shadow: var(--header-shadow);
 
 }
+/* #ffffffa4; */
 
 .background_mint p{
   color:#000000;
