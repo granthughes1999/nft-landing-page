@@ -640,14 +640,13 @@ header {
 
  
 }
-
+/* 
 .background_moon{
   z-index: -1;
   position: fixed;
   position: absolute;
-  /* position: center; */
   max-width: 770px;
-}
+} */
 
 
 
@@ -1061,6 +1060,10 @@ header {
   .right {
     left: 0%;
   }
+}
+
+.polygon-gas-text p{
+  font-size: 1.5rem;
 }
 
 
