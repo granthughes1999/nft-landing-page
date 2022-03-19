@@ -629,8 +629,8 @@ header {
 
 .background-moon{
   top:13.5rem;
-  height:35%;
-  width:35%;
+  height:36%;
+  width:36%;
   position: fixed;
   position: absolute;
   z-index: -1;
@@ -641,7 +641,7 @@ header {
   z-index: -2;
   position: fixed;
   position: absolute;
-  max-width: 650px;
+  max-width: 620px;
 }
 
 
@@ -738,8 +738,8 @@ header {
 }
 
 .background_image-logo{
-  height: 25rem;
-  width: 43rem;
+  height: 26rem;
+  width: 38rem;
   z-index: 0;
   padding: 0px;
   margin:0px;
