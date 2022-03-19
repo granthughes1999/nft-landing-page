@@ -646,7 +646,7 @@ header {
   z-index: -1;
   position: fixed;
   position: absolute;
-  max-width: 770px;
+  max-width: 700px;
 }
 
 
@@ -744,10 +744,11 @@ header {
 
 .background_image-logo{
   height: 25rem;
-  width: 49rem;
+  width: 43rem;
   z-index: 0;
   padding: 0px;
   margin:0px;
+ 
 
   
 }
@@ -1064,7 +1065,7 @@ header {
 }
 
 .polygon-gas-text p{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 
