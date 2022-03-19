@@ -825,7 +825,7 @@ header {
 .background_specs_text {
   opacity: 1;
   background-color: #ffffff;
-  height: 35%;
+  height: 30%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
@@ -838,7 +838,7 @@ header {
 .background_specs_mint {
   opacity: 1;
   background-color: #ffffff;
-  height: 60%;
+  height: 57%;
   width:100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
