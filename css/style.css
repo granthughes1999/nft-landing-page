@@ -190,7 +190,7 @@ header .container-main {
 
 .hero-btn-mint {
   border-radius: 5px;
-  font-size: 3rem;
+  font-size: 1.5rem;
   padding: 1.5rem 2rem;
   background-color: rgb(255, 255, 255);
   
@@ -770,6 +770,19 @@ header {
 .background_mint {
   opacity: 0.8;
   background-color: rgb(190, 156, 10);
+  height: 100%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+
+
+.background_learn {
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.349);
   height: 100%;
   width:100%;
   padding: 0.5rem 1.5rem;
