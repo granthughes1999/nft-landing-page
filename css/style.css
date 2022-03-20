@@ -641,8 +641,9 @@ header {
   z-index: -2;
   position: fixed;
   position: absolute;
-  max-width: 695px;
-  left:32%;
+  max-width: 600px;
+  /* left:30%; */
+  right:-475px;
 }
 
 
@@ -739,7 +740,7 @@ header {
 }
 
 .background_image-logo{
-  height: 26rem;
+  height: 24rem;
   width: 38rem;
   z-index: 0;
   padding: 0px;
