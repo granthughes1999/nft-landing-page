@@ -663,10 +663,10 @@ header {
   z-index: -2;
   position: fixed;
   position: absolute;
-  max-width: 650px;
+  max-width: 675px;
   
   /* left:30%; */
-  right:-490px;
+  right:-510px;
 }
 
 
