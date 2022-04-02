@@ -568,6 +568,28 @@ header {
   box-shadow: var(--header-shadow);
 
 }
+.background_topText {
+  opacity: 0.8;
+  background-color: #414042;
+  height: 95%;
+  width:100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+  z-index: 1;
+
+}
+
+.background_topText p  {
+  color: #ffffff;
+
+}
+.background_topText h2  {
+  color: #ffffff;
+
+}
+
 
 .foreground_roadmap{
   height: 80%;
