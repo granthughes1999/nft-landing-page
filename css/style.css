@@ -367,7 +367,7 @@ section {
 
 
 .bottom_page {
-  display: inline-block;
+  /* display: inline-block; */
   position: center;
   max-width: 100%;
   margin: 0rem;
@@ -376,21 +376,22 @@ section {
   flex-wrap: wrap;
   justify-content: left;
   margin-top: 0px;
-  left:20%;
+  right:20%;
 }
 
 .gallary-item-bottom-page{
-  margin: 0.1rem;
-  width:18rem;
-  display:inline-block;
+  margin: 0rem;
+  width:15rem;
+  /* display:inline-block; */
   position: center;
-  left:20%;
+  right:20%;
+  
 }
 
 
 .container_footer {
   max-width: 940px;
-  height: 180px;
+  height: 210px;
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
