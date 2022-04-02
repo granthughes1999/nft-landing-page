@@ -368,6 +368,7 @@ section {
 
 .bottom_page {
   display: inline-block;
+  position: center;
   max-width: 100%;
   margin: 0rem;
   padding: 1rem 1rem;
@@ -375,17 +376,21 @@ section {
   flex-wrap: wrap;
   justify-content: left;
   margin-top: 0px;
+  left:20%;
 }
 
 .gallary-item-bottom-page{
   margin: 0.1rem;
-  width:3rem;
+  width:18rem;
   display:inline-block;
+  position: center;
+  left:20%;
 }
 
 
 .container_footer {
   max-width: 940px;
+  height: 180px;
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
@@ -397,7 +402,7 @@ section {
 footer p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 footer {
@@ -521,9 +526,13 @@ header {
   font-size: 2rem;
 }
 
-.fair-dist {
+.fair-dist h1 {
   color: rgb(190, 156, 0);
 }
+.fair-dist p{
+  color: rgb(253, 253, 253);
+}
+
 
 
 .midground {
@@ -639,6 +648,7 @@ header {
   position: sticky;
   position: absolute;
   position: center;
+  
 }
 
 .background-item{
@@ -648,6 +658,7 @@ header {
   position: absolute;
   z-index: -1;
   position: center;
+
  
 }
 
@@ -658,6 +669,7 @@ header {
   position: fixed;
   position: absolute;
   z-index: -2;
+   
  
 }
 
