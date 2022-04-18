@@ -31,7 +31,7 @@ h1 {
 }
 
 body {
- 
+
   font-family: Montserrat, sans-serif;
   background-color: var(--bg-color);
   display: flex;
@@ -42,13 +42,15 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
- 
+
 }
-.jumbotron .container{
-  z-index:0;
+
+.jumbotron .container {
+  z-index: 0;
   border-color: transparent;
-  
+
 }
+
 .container-main {
   display: flex;
   flex-direction: column;
@@ -56,9 +58,9 @@ body {
   margin: 0 auto;
   padding: 0.1rem 0.1rem;
   height: 12vh;
-  z-index:1;
- font-size: 0.75rem;
- color: #fff;
+  z-index: 1;
+  font-size: 0.75rem;
+  color: #fff;
 }
 
 .container_countdown {
@@ -67,20 +69,20 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   /* padding: 1rem 2rem; */
-  z-index:1;
+  z-index: 1;
   position: relative;
   text-align: center;
   top: 5%;
-  width: 100%; 
+  width: 100%;
   bottom: 30%;
   /* z-index:0; */
-  
- 
+
+
 
 }
 
-.container_countdown h3{
-  color:#000;
+.container_countdown h3 {
+  color: #000;
 }
 
 /* .container_countdown h2{
@@ -96,20 +98,20 @@ header {
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: sticky;
- 
+
 }
 
 header .container-main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index:0;
-  
-  
-  
-  
+  z-index: 0;
+
+
+
+
 }
 
 .menu {
@@ -117,22 +119,22 @@ header .container-main {
   gap: 2.25rem;
   width: 1.25rem;
   align-items: center;
-  z-index:2;
+  z-index: 2;
   text-decoration: none !important;
   border-color: transparent;
   position: absolute;
- 
- 
+
+
 
 }
 
-.menu p{
+.menu p {
   color: #fff;
   gap: 2rem;
   width: 3.5rem;
   font-size: 0.85rem;
   border-color: transparent;
-  
+
 }
 
 /* BUTTONS */
@@ -154,6 +156,7 @@ header .container-main {
   text-decoration: none;
   outline: none;
 }
+
 .btn:hover {
   box-shadow: none;
 }
@@ -172,8 +175,8 @@ header .container-main {
   box-shadow: 4px 4px 0 0 var(--accent-color-discord);
   color: var(--accent-color-discord);
   z-index: 3;
-  
-  
+
+
 }
 
 .hero-btn-opensea {
@@ -184,8 +187,8 @@ header .container-main {
   box-shadow: 4px 4px 0 0 var(--accent-color-discord);
   color: var(--accent-color-discord);
   z-index: 3;
-  
-  
+
+
 }
 
 .hero-btn-mint {
@@ -193,8 +196,8 @@ header .container-main {
   font-size: 2.5rem;
   padding: 1.5rem 2rem;
   background-color: rgb(255, 255, 255);
-  
-  
+
+
 }
 
 
@@ -216,11 +219,13 @@ section {
   display: flex;
   gap: 2rem
 }
+
 .countdown .clock-item {
   list-style: none;
   width: 110px;
   height: 70px;
 }
+
 .countdown .clock-item .count-number {
   z-index: 1;
   background: var(--accent-color);
@@ -235,6 +240,7 @@ section {
   line-height: 1;
   border-radius: 4px 4px 0 0;
 }
+
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
@@ -246,7 +252,7 @@ section {
   text-align: center;
   line-height: 1;
   border-radius: 0 0 4px 4px;
-  z-index:2;
+  z-index: 2;
 }
 
 .countdown h1 {
@@ -256,8 +262,9 @@ section {
   font-size: 3.5rem;
   text-align: center;
 }
+
 .countdown h2 {
-  color:#000;
+  color: #000;
 }
 
 .countdown p {
@@ -265,7 +272,7 @@ section {
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
   text-align: center;
-  color:#000;
+  color: #000;
 }
 
 /* OWNER STYLES */
@@ -284,49 +291,58 @@ section {
     width: 1.25rem;
     font-size: 1rem;
   }
+
   .wallet-btn {
     margin-left: 0;
     padding: 1rem;
     max-width: 8rem;
   }
+
   .countdown h1 {
     font-size: 2rem;
   }
+
   .countdown p {
     font-size: 1rem;
   }
-  .header{
+
+  .header {
     font-size: 1rem;
   }
-  .container-main{
+
+  .container-main {
     font-size: 1rem;
   }
-  .background-item{
+
+  .background-item {
     position: sticky;
     z-index: -1;
-  
-  } 
-  .background_image{
+
+  }
+
+  .background_image {
     position: sticky;
     z-index: 0;
   }
-  .background-moon{
+
+  .background-moon {
     position: relative;
     z-index: 0;
     size: 100%;
   }
-  .background_moon{
+
+  .background_moon {
     position: relative;
     z-index: -1;
     size: 100%;
   }
 
-  .colletion_info{
+  .colletion_info {
     display: inline-block;
   }
-  
+
 }
- 
+
 /*images under welcome*/
 .row {
   display: flex;
@@ -336,9 +352,10 @@ section {
   padding: 0px;
   width: 50%;
   display: block;
- 
- 
+
+
 }
+
 .column {
   display: flex;
   flex-wrap: wrap;
@@ -347,7 +364,7 @@ section {
   margin: auto 7px;
   padding: 0px;
   display: inline-block;
-  display:block;
+  display: block;
 }
 
 .center {
@@ -356,10 +373,10 @@ section {
   width: 50%;
   padding: 0 4px;
 
-  
+
 }
 
-.centerImage{
+.centerImage {
   position: center;
   height: 250px;
   width: 250px;
@@ -376,16 +393,16 @@ section {
   flex-wrap: wrap;
   justify-content: left;
   margin-top: 0px;
-  right:20%;
+  right: 20%;
 }
 
-.gallary-item-bottom-page{
+.gallary-item-bottom-page {
   margin: 0rem;
-  width:13rem;
+  width: 13rem;
   /* display:inline-block; */
   position: center;
-  right:20%;
-  
+  right: 20%;
+
 }
 
 
@@ -412,18 +429,19 @@ footer {
   padding: 40px 0;
   z-index: 1;
 }
+
 /* #333 */
 
 header {
   background-color: #333333;
   position: fixed;
   width: 100%;
-  height:11%;
-  z-index:2;
+  height: 11%;
+  z-index: 2;
   opacity: 0.8;
 }
 
-.row .image-container img{
+.row .image-container img {
   display: inline-block;
   width: 50%;
 }
@@ -437,7 +455,7 @@ header {
   margin-top: 10px;
   /* right:50%; */
   /* display: inline; */
-  
+
 }
 
 
@@ -446,14 +464,14 @@ header {
   /* width:14rem; */
   /* display: center; */
   /* display:inline-block; */
-  
+
 }
 
-.gallery-item p{
+.gallery-item p {
   /* position: left; */
   display: inline-block;
   /* display: center; */
-  
+
 }
 
 .gallery-item .thumbnail {
@@ -461,12 +479,13 @@ header {
   /* display: center; */
   border-radius: 10px;
   /* display: inline-block; */
- 
+
 }
+
 /* GhostWhite */
-.image-row{
-  left:90%;
-  padding:0rem;
+.image-row {
+  left: 90%;
+  padding: 0rem;
   margin: 0rem;
   display: inline-block;
   display: center;
@@ -485,13 +504,13 @@ header {
 }
 
 .gallery_team p {
-  display:center;
+  display: center;
 }
 
 .gallery-team-item {
   margin: 0.25rem;
-  width:17rem;
-  display:inline-block;
+  width: 17rem;
+  display: inline-block;
 }
 
 .gallery-team-item .thumbnail {
@@ -502,8 +521,8 @@ header {
 }
 
 
-.road_map h3{
-  color:#000000;
+.road_map h3 {
+  color: #000000;
 }
 
 /* .jumbotron {
@@ -530,7 +549,8 @@ header {
 .fair-dist h1 {
   color: rgb(190, 156, 0);
 }
-.fair-dist p{
+
+.fair-dist p {
   color: rgb(253, 253, 253);
 }
 
@@ -540,7 +560,7 @@ header {
   opacity: 0.9;
   background-color: rgb(190, 156, 10);
   height: 100%;
-  width:100%;
+  width: 100%;
   padding: 1rem 2rem;
   border-radius: 25px;
   position: relative;
@@ -552,20 +572,21 @@ header {
 }
 
 
-.midground p{
+.midground p {
   color: rgb(7, 6, 3);
   /* font-size: 1rem; */
   left: 100px;
   font-style: sans-serif;
 }
-.midground h2{
+
+.midground h2 {
   color: rgb(7, 6, 3);
   font-size: 3rem;
   left: 100px;
   font-style: sans-serif;
 }
 
-.foreground{
+.foreground {
   height: 80%;
 }
 
@@ -573,18 +594,19 @@ header {
   opacity: 0.8;
   background-color: #414042;
   height: 95%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
 
 }
+
 .background_topText {
   opacity: 0.8;
   background-color: #414042;
   height: 95%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
@@ -593,19 +615,21 @@ header {
 
 }
 
-.background_topText p  {
-  color: #ffffff;
-
-}
-.background_topText h2  {
+.background_topText p {
   color: #ffffff;
 
 }
 
+.background_topText h2 {
+  color: #ffffff;
 
-.foreground_roadmap{
+}
+
+
+.foreground_roadmap {
   height: 80%;
 }
+
 .midground_roadmap h3 {
   background-color: #be7efe;
   height: 1%;
@@ -614,11 +638,11 @@ header {
 }
 
 
-.thumbnail-bottom{
-  position:center;
+.thumbnail-bottom {
+  position: center;
   display: block;
   margin: 0rem;
-  padding:0rem;
+  padding: 0rem;
 }
 
 /* Praticle.js */
@@ -631,55 +655,55 @@ header {
 .heading {
   position: absolute;
   text-align: center;
-  
+
 }
 
 
 
 
-.mint h1{
+.mint h1 {
   color: #000000;
   font-size: 60px;
 }
 
-.background_image{
-  height:100%;
-  width:100%;
+.background_image {
+  height: 100%;
+  width: 100%;
   z-index: -1;
   position: sticky;
   position: absolute;
   position: center;
-  
+
 }
 
-.background-item{
-  height:125rem;
-  width:100%;
+.background-item {
+  height: 125rem;
+  width: 100%;
   position: sticky;
   position: absolute;
   z-index: -1;
   position: center;
 
- 
+
 }
 
-.background-moon{
-  top:11.5rem;
-  height:100%;
-  width:100%;
+.background-moon {
+  top: 11.5rem;
+  height: 100%;
+  width: 100%;
   position: fixed;
   position: absolute;
   z-index: -2;
-   
- 
+
+
 }
 
-.background_moon{
+.background_moon {
   z-index: -2;
   /* position: fixed;
   position: absolute; */
   max-width: 674px;
-  
+
   /* left:30%;
   right:-510px; */
 }
@@ -690,64 +714,64 @@ header {
 
 /* WOLFF */
 
-.background_image-wolf{
+.background_image-wolf {
   height: 38rem;
   width: 38rem;
   z-index: 0;
 
-  
+
 }
 
-.background-item-wolf{
+.background-item-wolf {
 
   position: relative;
-  left:0px;
+  left: 0px;
   position: center;
   z-index: 1;
- 
+
 }
 
-#particles-js{
+#particles-js {
   height: 100%;
   width: 100%;
-  background:#26262600 ;
+  background: #26262600;
   position: fixed;
   z-index: 0;
 }
 
-.colletion_info{
+.colletion_info {
   display: inline-block;
   text-align: center;
- 
-  padding:0rem;
+
+  padding: 0rem;
   margin: 0rem;
 
   /* flex-direction: column; */
   max-width: 1030px;
   /* display: flex; */
   /* flex-direction: column; */
- 
-  z-index:1;
+
+  z-index: 1;
   /* text-align: center; */
 }
 
 /* Collection Info*/
-.collection-row{
-  padding:2rem;
+.collection-row {
+  padding: 2rem;
   margin: 1rem;
   display: inline-block;
   word-spacing: 10em;
   letter-spacing: 0px;
   font-size: 21px;
- 
+
 }
 
 .collection-info {
   margin: 10rem;
-  width:14rem;
-  display:inline-block;
+  width: 14rem;
+  display: inline-block;
   padding: 25px;
-  
+
 }
 
 .collection-info .item {
@@ -767,25 +791,25 @@ header {
 
 /* LOGO */
 
-.background-item-logo{
+.background-item-logo {
   position: relative;
-  left:0px;
+  left: 0px;
   position: center;
   z-index: 1;
   padding: 0px;
-  margin:0px;
- 
+  margin: 0px;
+
 }
 
-.background_image-logo{
+.background_image-logo {
   height: 24rem;
   width: 38rem;
   z-index: 0;
   padding: 0px;
-  margin:0px;
- 
+  margin: 0px;
 
-  
+
+
 }
 
 
@@ -801,16 +825,21 @@ header {
   visibility: visible !important;
 }
 
-@-webkit-keyframes animat_show{
-  0%{opacity:0}
-  100%{opacity:1}
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
 }
 
 .background_mint {
   opacity: 0.8;
   background-color: rgb(190, 156, 10);
   height: 100%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
@@ -823,17 +852,18 @@ header {
   opacity: 0.8;
   background-color: rgba(0, 0, 0, 0.349);
   height: 100%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
 
 }
+
 /* #ffffffa4; */
 
-.background_mint p{
-  color:#000000;
+.background_mint p {
+  color: #000000;
 
 }
 
@@ -844,7 +874,7 @@ header {
   background-color: #473bf0;
   box-shadow: 4px 4px 0 0 var(--accent-color-discord);
   color: var(--accent-color-discord);
-  
+
 }
 
 .hero-btn-learn {
@@ -862,20 +892,21 @@ header {
   opacity: 1;
   background-color: #ffffff;
   height: 125%;
-  width:100%;
+  width: 100%;
   padding: 0.75rem 1.0rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
 
 }
+
 /* #ffffffa4; */
 
 .background_specs {
   opacity: 1;
   background-color: #ffffffa4;
   height: 125%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.0rem;
   border-radius: 25px;
   max-width: 1000px;
@@ -887,7 +918,7 @@ header {
   opacity: 1;
   background-color: #ffffff;
   height: 30%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
@@ -900,7 +931,7 @@ header {
   opacity: 1;
   background-color: #ffffff;
   height: 58%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
@@ -909,12 +940,12 @@ header {
 }
 
 .background_specs_mint p {
-  color:#000000;
+  color: #000000;
 
 }
 
-.background_specs_mint h2{
-  color:#000000;
+.background_specs_mint h2 {
+  color: #000000;
 
 }
 
@@ -922,7 +953,7 @@ header {
   opacity: 1;
   background-color: #ffffff;
   height: 17%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
@@ -931,12 +962,12 @@ header {
 }
 
 .background_specs_data h2 {
-  color:#000000;
+  color: #000000;
 
 }
 
 .background_specs_data p {
-  color:#000000;
+  color: #000000;
 
 }
 
@@ -945,12 +976,12 @@ header {
 
 
 .background_specs_text p {
-  color:#000000;
+  color: #000000;
 
 }
 
-.background_specs h1{
-  color:#000000;
+.background_specs h1 {
+  color: #000000;
 
 }
 
@@ -959,13 +990,14 @@ header {
   opacity: 0.5;
   background-color: #ffffffa4;
   height: 75%;
-  width:100%;
+  width: 100%;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
 
 }
+
 .background_specs-text p {
   color: #000;
   font-size: larger;
@@ -1084,26 +1116,27 @@ header {
 .content {
   padding: 20px 20px;
   background-color: white;
-  color:#000;
+  color: #000;
   position: relative;
   border-radius: 6px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-/* Place the timelime to the left */
+
+  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
 
-/* Full-width containers */
+  /* Full-width containers */
   /* .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   } */
 
-/* Make sure that all arrows are pointing leftwards */
+  /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
     border: medium solid white;
@@ -1111,18 +1144,19 @@ header {
     border-color: transparent white transparent transparent;
   }
 
-/* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
     left: 15px;
   }
 
-/* Make all right containers behave like the left ones */
+  /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
   }
 }
 
-.polygon-gas-text p{
+.polygon-gas-text p {
   font-size: 1.25rem;
 }
 
@@ -1140,15 +1174,15 @@ header {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #555;
 }
 
-.content {
+.content-FAQ {
+  color: #000;
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
 }
-
-
