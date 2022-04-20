@@ -179,6 +179,18 @@ header .container-main {
 
 }
 
+.hero-btn-specs {
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background-color: #473bf0;
+  box-shadow: 4px 4px 0 0 var(--accent-color-discord);
+  color: var(--accent-color-discord);
+  z-index: 3;
+
+
+}
+
 .hero-btn-opensea {
   border-radius: 4px;
   font-size: 1.2rem;
@@ -978,7 +990,7 @@ header {
 .background_specs_data {
   opacity: 1;
   background-color: #ffffff;
-  height: 30%;
+  height: 40%;
   width: 100%;
   /* padding: 0.5rem 1.5rem; */
   border-radius: 25px;
