@@ -1186,3 +1186,25 @@ header {
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+/* image slider */
+
+.mySlides {
+  display: none;
+  padding: 25px;
+
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer;
+
+}
+
+.w3-badge {
+  height: 113px;
+  width: 113px;
+  padding: 50px;
+  /* position: center; */
+}
