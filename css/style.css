@@ -978,12 +978,14 @@ header {
 .background_specs_data {
   opacity: 1;
   background-color: #ffffff;
-  height: 17%;
+  height: 30%;
   width: 100%;
-  padding: 0.5rem 1.5rem;
+  /* padding: 0.5rem 1.5rem; */
   border-radius: 25px;
   max-width: 1000px;
   box-shadow: var(--header-shadow);
+
+
 
 }
 
