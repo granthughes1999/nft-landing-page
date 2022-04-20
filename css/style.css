@@ -1195,11 +1195,10 @@ header {
 
 .mySlides {
   display: none;
-  padding: 25px;
 
 }
 
-.w3-left,
+/* .w3-left,
 .w3-right,
 .w3-badge {
   cursor: pointer;
@@ -1210,5 +1209,5 @@ header {
   height: 113px;
   width: 113px;
   padding: 50px;
-  /* position: center; */
-}
+  position: center;
+} */
