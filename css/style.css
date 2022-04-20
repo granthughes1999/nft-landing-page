@@ -341,6 +341,10 @@ section {
     display: inline-block;
   }
 
+  .autoplay {
+    position: relative;
+  }
+
 }
 
 /*images under welcome*/
