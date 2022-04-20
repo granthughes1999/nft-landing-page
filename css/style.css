@@ -630,6 +630,18 @@ header {
 
 }
 
+.background_join {
+  opacity: 0.8;
+  background-color: #473bf0;
+  height: 95%;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  max-width: 1000px;
+  box-shadow: var(--header-shadow);
+
+}
+
 .background_topText {
   opacity: 0.8;
   background-color: #414042;
@@ -906,6 +918,17 @@ header {
 .hero-btn-mint-2 {
   border-radius: 4px;
   font-size: 3rem;
+  padding: 1.5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0 0 #ffffffa4;
+  color: #000000;
+  /* color: var(--accent-color-discord); */
+
+}
+
+.hero-btn-join-2 {
+  border-radius: 2px;
+  font-size: 1.5rem;
   padding: 1.5rem 2rem;
   background-color: #ffffff;
   box-shadow: 4px 4px 0 0 #ffffffa4;
