@@ -196,6 +196,8 @@ header .container-main {
   font-size: 2.5rem;
   padding: 1.5rem 2rem;
   background-color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 0 0 #473bf0;
+  color: #473bf0;
 
 
 }
@@ -228,7 +230,7 @@ section {
 
 .countdown .clock-item .count-number {
   z-index: 1;
-  background: var(--accent-color);
+  background: #473bf0;
   color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
@@ -551,7 +553,7 @@ header {
 }
 
 .fair-dist h1 {
-  color: rgb(190, 156, 0);
+  color: rgb(251, 251, 251);
 }
 
 .fair-dist p {
@@ -666,7 +668,8 @@ header {
 
 
 .mint h1 {
-  color: #000000;
+  /* color: #000000; */
+  color: #ffffff;
   font-size: 60px;
 }
 
@@ -841,7 +844,7 @@ header {
 
 .background_mint {
   opacity: 0.8;
-  background-color: rgb(190, 156, 10);
+  background-color: #473bf0;
   height: 100%;
   width: 100%;
   padding: 0.5rem 1.5rem;
@@ -867,7 +870,13 @@ header {
 /* #ffffffa4; */
 
 .background_mint p {
-  color: #000000;
+  color: #ffffff;
+
+}
+
+
+.background_mint h3 {
+  color: #ffffff;
 
 }
 
@@ -875,9 +884,10 @@ header {
   border-radius: 4px;
   font-size: 3rem;
   padding: 1.5rem 2rem;
-  background-color: #473bf0;
-  box-shadow: 4px 4px 0 0 var(--accent-color-discord);
-  color: var(--accent-color-discord);
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0 0 #ffffffa4;
+  color: #000000;
+  /* color: var(--accent-color-discord); */
 
 }
 
@@ -886,7 +896,7 @@ header {
   font-size: 2rem;
   padding: 1.5rem 2rem;
   background-color: #473bf0;
-  box-shadow: 4px 4px 0 0 var(--accent-color-discord);
+  box-shadow: 4px 4px 0 0 #000000a4;
   color: var(--accent-color-discord);
 
 }
@@ -945,6 +955,7 @@ header {
 
 .background_specs_mint p {
   color: #000000;
+
 
 }
 
