@@ -390,33 +390,39 @@ section {
 
 
 .bottom_page {
-  /* display: inline-block; */
+  display: inline-block;
   position: center;
   max-width: 100%;
   margin: 0rem;
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: left;
   margin-top: 0px;
-  right: 20%;
+  /* right: 20%; */
+}
+
+
+.bottom_page p {
+  position: center;
+
 }
 
 .gallary-item-bottom-page {
-  margin: 0rem;
-  width: 13rem;
+  /* margin: 0.5rem; */
+  width: 50rem;
   /* display:inline-block; */
   position: center;
-  right: 20%;
+  right: 50%;
 
 }
 
 
 .container_footer {
   max-width: 940px;
-  height: 210px;
-  margin: 0 auto;
-  padding: 0 10px;
+  height: 80px;
+  margin: auto;
+  padding: 10px;
   text-align: center;
   color: #000000;
   z-index: 2;
@@ -426,14 +432,18 @@ section {
 footer p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
+  position: relative;
 }
 
+
+
 footer {
-  background-color: rgb(190, 156, 10);
+  background-color: #473bf0;
   color: #fff;
-  padding: 40px 0;
+  padding: 45px;
   z-index: 1;
+
 }
 
 /* #333 */
