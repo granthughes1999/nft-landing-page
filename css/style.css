@@ -1282,6 +1282,7 @@ header {
   transform: translateY(0px);
   opacity: 1;
   background-color: #ffffff;
+  padding: 0.5rem 1.5rem;
   ;
 }
 
@@ -1349,5 +1350,41 @@ header {
   transform: translateY(0px);
   opacity: 1;
   background-color: #848080a4;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  ;
+}
+
+.reveal2 {
+  position: relative;
+  transform: translateY(0px);
+  opacity: 0;
+  transition: 2s all ease;
+  /* color: #fffdfd00; */
+}
+
+.reveal2.active2 {
+  transform: translateY(0px);
+  opacity: 1;
+  background-color: #84808000;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  ;
+}
+
+.reveal3 {
+  position: relative;
+  transform: translateY(0px);
+  opacity: 0;
+  transition: 1s all ease;
+  /* color: #fffdfd00; */
+}
+
+.reveal3.active3 {
+  transform: translateY(0px);
+  opacity: 1;
+  background-color: #84808000;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
   ;
 }
