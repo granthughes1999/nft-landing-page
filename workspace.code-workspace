@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "nft-landing-page",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "slick"
+	}
+}
