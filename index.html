@@ -174,7 +174,12 @@
             rel="noopener noreferrer">
             <img src="website_photos/ig-no-bg.png" alt="Discord" width="40" height="40" /></a>
           <br><br>
-          <img src="/website_photos/car3.jpeg" alt="Discord" width="450" height="370" />
+          <div class="autoplayCar" mobileFirst="true">
+            <div position="relative"> <img src="website_photos/car1.png" style="width:95%"> </div>
+            <div position="relative"> <img src="website_photos/car2.png" style="width:95%"> </div>
+            <div position="relative"> <img src="website_photos/car3.png" style="width:95%"> </div>
+            <!-- <img src="/website_photos/car1.png" alt="Discord" width="550" height="370" /> -->
+          </div>
           <p>Each Omega Wolves NFT you own at the time of the drawing is equal to one chance to win</p>
           <br>
           <p> Mint <strong>Unlimited</strong> NFTs in one transaction and pay <strong>ONE SINGLE GAS
@@ -748,6 +753,14 @@
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
+    });</script>
+
+  <script type="text/javascript">
+    $('.autoplayCar').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
     });</script>
   <script src="//code.jquery.com/jquery-latest.min.js" type="text/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
