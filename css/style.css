@@ -30,6 +30,7 @@ h1 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 body {
@@ -78,8 +79,6 @@ body {
   width: 100%;
   bottom: 30%;
   /* z-index:0; */
-
-
 
 }
 
@@ -1133,6 +1132,7 @@ header {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+
 }
 
 /* Place the container to the left */
@@ -1268,16 +1268,86 @@ header {
   font-size: 20px;
 }
 
-/* Reveal */
+/* Reveal RoadMap */
 
 .reveal {
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(0px);
   opacity: 0;
   transition: 2s all ease;
+  /* color: #fffdfd00; */
 }
 
 .reveal.active {
-  transform: translateY(0);
+  transform: translateY(0px);
   opacity: 1;
+  background-color: #ffffff;
+  ;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Reveal Roadmap End */
+
+/* Reveal  */
+
+.reveal1 {
+  position: relative;
+  transform: translateY(0px);
+  opacity: 0;
+  transition: 2s all ease;
+  /* color: #fffdfd00; */
+}
+
+.reveal1.active1 {
+  transform: translateY(0px);
+  opacity: 1;
+  background-color: #848080a4;
+  ;
 }

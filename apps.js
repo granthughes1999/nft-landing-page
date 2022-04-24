@@ -182,4 +182,20 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
-reveal();
+// reveal();
+
+function reveal1() {
+  var reveals = document.querySelectorAll(".reveal1");
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active1");
+    } else {
+      reveals[i].classList.remove("active1");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal1);
