@@ -19,10 +19,12 @@ h1 {
   --bg-color: #212428;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #473bf0;
   --accent-color-discord: #ffffff;
   --header-shadow: #000 0px 0px 5px;
 }
+
+/* #be7efe; */
 
 * {
   padding: 0;
@@ -1265,4 +1267,3 @@ header {
 .content-FAQ p {
   font-size: 20px;
 }
-
