@@ -1274,7 +1274,7 @@ header {
   position: relative;
   transform: translateY(0px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 0.5s all ease;
   /* color: #fffdfd00; */
 }
 
@@ -1357,7 +1357,7 @@ header {
   position: relative;
   transform: translateY(0px);
   opacity: 0;
-  transition: 2s all ease;
+  transition: 2.5s all ease;
   /* color: #fffdfd00; */
 }
 
@@ -1374,7 +1374,7 @@ header {
   position: relative;
   transform: translateY(0px);
   opacity: 0;
-  transition: 2s all ease;
+  transition: 2.5s all ease;
   /* color: #fffdfd00; */
 }
 
