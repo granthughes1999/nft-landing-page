@@ -1286,6 +1286,7 @@ header {
   ;
 }
 
+/* 
 .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
@@ -1332,7 +1333,7 @@ header {
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
 /* Reveal Roadmap End */
 
