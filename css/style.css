@@ -1274,7 +1274,7 @@ header {
   position: relative;
   transform: translateY(0px);
   opacity: 0;
-  transition: 2s all ease;
+  transition: 1.25s all ease;
   /* color: #fffdfd00; */
 }
 
