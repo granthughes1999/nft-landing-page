@@ -1282,11 +1282,9 @@ header {
   transform: translateY(0);
   opacity: 1;
   background-color: #ffffff;
-  padding: 0.5rem 1.5rem;
   ;
 }
 
-/* 
 .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
@@ -1333,7 +1331,7 @@ header {
     transform: translateX(0);
     opacity: 1;
   }
-} */
+}
 
 /* Reveal Roadmap End */
 
@@ -1351,7 +1349,6 @@ header {
   transform: translateY(0);
   opacity: 1;
   background-color: #848080a4;
-  padding: 0.5rem 1.5rem;
   border-radius: 25px;
   ;
 }
@@ -1368,7 +1365,7 @@ header {
   transform: translateY(0);
   opacity: 1;
   background-color: #84808000;
-  padding: 0.5rem 1.5rem;
+
   border-radius: 25px;
   ;
 }
@@ -1385,7 +1382,6 @@ header {
   transform: translateY(0);
   opacity: 1;
   background-color: #84808000;
-  padding: 0.5rem 1.5rem;
   border-radius: 25px;
   ;
 }
