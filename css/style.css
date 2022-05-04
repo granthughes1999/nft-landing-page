@@ -42,7 +42,7 @@ body {
   height: 50vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.5;
 
@@ -906,7 +906,7 @@ header {
 
 .background_mint p {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 1.5rem;
 
 }
 
