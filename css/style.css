@@ -643,6 +643,12 @@ header {
 
 }
 
+.background_join p {
+  font-size: 1.25rem;
+
+}
+
+
 .background_topText {
   opacity: 0.8;
   background-color: #414042;
@@ -1032,7 +1038,7 @@ header {
 
 .background_specs_data p {
   color: #000000;
-  font-size: 15px;
+  font-size: 1.25rem;
 
 }
 
